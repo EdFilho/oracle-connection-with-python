@@ -12,7 +12,7 @@ def db_connection():
         print(f'version connection: {ora_conn.version}\n')
 
         #open a file
-        archive = open('autonomos1.txt', 'w')
+        archive = open('save.txt', 'w')
 
         #SQL command
         sql_command = """INSERT YOUR SQL COMMAND"""
